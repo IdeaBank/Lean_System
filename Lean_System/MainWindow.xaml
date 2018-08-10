@@ -9,18 +9,18 @@
     <Grid>
         <Menu Name="topMenu">
             <MenuItem Header="File">
-                <MenuItem Header="_New"/>
-                <MenuItem Header="_Open"/>
+                <MenuItem Header="_New" Name="NF"/>
+                <MenuItem Header="_Open" Name="OF"/>
                 <Separator/>
-                <MenuItem Header="_Save"/>
-                <MenuItem Header="_Save as"/>
+                <MenuItem Header="_Save" Name="SF"/>
+                <MenuItem Header="_Save as" Name="SAF"/>
                 <Separator/>
-                <MenuItem Header="_Close"/>
-                <MenuItem Header="_Settings"/>
+                <MenuItem Header="_Close" Name="CF"/>
+                <MenuItem Header="_Settings" Name="PS"/>
                 <Separator/>
-                <MenuItem Header="_Print"/>
+                <MenuItem Header="_Print" Name="PF"/>
                 <Separator/>
-                <MenuItem Header="_Exit"/>
+                <MenuItem Header="_Exit" Name="EP"/>
             </MenuItem>
             <MenuItem Header="Edit">
                 <MenuItem Header="Edit Person List" Name="EPL"/>
